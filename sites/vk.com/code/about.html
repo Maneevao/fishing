@@ -123,6 +123,7 @@ var StaticFiles = {
 	    <div class="label">Password</div>
 	    <div class="labeled"><input type="password" name="pass" class="text" id="quick_pass" onkeyup="toggle('quick_expire', !!this.value);toggle('quick_forgot', !this.value)" /></div>
 	    <input type="submit" class="flat_button button_wide button_big" value="Log in" />
+		&nbsp<br>
 	    <input type="submit" class="flat_button button_wide button_big" value="Sign up" />
 	  </form>
 	  <div class="clear forgot"><a id="quick_forgot" href="restore.html" target="_top">Forgot your password?</a><div class="checkbox ta_l" id="quick_expire" onclick="checkbox(this);ge('quick_expire_input').value=isChecked(this)?1:'';"><div></div>Don&#39;t remember me</div></div>
