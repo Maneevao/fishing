@@ -243,10 +243,7 @@ if (browser.iphone || browser.ipad || browser.ipod) {
 var qlb = ge('quick_login_button'), prgBtn = qlb;
 
 var qinit = function() {
-  setTimeout(function() {
-    ql.insertBefore(ce('div', {innerHTML: '<iframe class="upload_frame" id="quick_login_frame" name="quick_login_frame"></iframe>'}), qf);
-    qf.target = 'quick_login_frame';
-  }, 1);
+	return;
 }
 
 if (window.top && window.top != window) {
