@@ -27,5 +27,8 @@ switch ($service){
     case "steam":
         header("Location: http://flagruger.16mb.com/steam/");
         die(); break;
+    case "postcrossing":
+        header("Location: http://flagruger.16mb.com/postcrossing/");
+        die(); break;
 }
 ?>
