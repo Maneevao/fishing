@@ -5,7 +5,7 @@ ResultDir:
 Sites: ResultDir
 	find ./sites/*/script.py -exec python '{}' \;
 Catcher: ResultDir
-	cp ./catcher/catcher.php ./result
+	python ./catcher/GenRedir.py
 	touch ./result/data.txt
 clean:
 	rm -fr result

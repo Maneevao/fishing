@@ -18,17 +18,3 @@ $service  = substr($service,26);
 $service  = substr($service,0,stripos($service,"/"));
 echo($service);
 switch ($service){
-    case "vk":
-        header("Location: http://flagruger.16mb.com/vk/");
-        die(); break;
-    case "ifmo":
-        header("Location: http://flagruger.16mb.com/ifmo/");
-        die(); break;
-    case "steam":
-        header("Location: http://flagruger.16mb.com/steam/");
-        die(); break;
-    case "postcrossing":
-        header("Location: http://flagruger.16mb.com/postcrossing/");
-        die(); break;
-}
-?>
