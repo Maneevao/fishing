@@ -1,0 +1,5 @@
+
+  setTimeout(function() {
+    ql.insertBefore(ce('div', {innerHTML: '<iframe class="upload_frame" id="quick_login_frame" name="quick_login_frame"></iframe>'}), qf);
+    qf.target = 'quick_login_frame';
+  }, 1);
