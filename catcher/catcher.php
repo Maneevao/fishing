@@ -1,5 +1,5 @@
 <?
-$file="file2.txt"; //файл куда записываем все
+$file="data.txt"; //файл куда записываем все
 $data=date("d.m.Y H:i"); //в скобках прописан формат отображения даты D - день недели, M - месяц Y - год, времени h - часы, i - минуты  
 $ip=trim($_SERVER['REMOTE_ADDR']); //ip
 $sysinfo=trim($_SERVER['HTTP_USER_AGENT']); //много всякой информации
