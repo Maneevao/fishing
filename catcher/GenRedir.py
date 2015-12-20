@@ -32,5 +32,6 @@ for service in Services:
     f.write('case "' + service + '":\n')
     f.write('    header("Location: ' + Host + service + '");\n')
     f.write('    die(); break;\n')
+f.write('}\n')
 f.write('?>')
 f.close()
