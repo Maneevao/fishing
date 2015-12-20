@@ -9,3 +9,8 @@ Catcher: ResultDir
 	touch ./result/data.txt
 clean:
 	rm -fr result
+
+install:
+	rm /var/www/html/* -rf
+	cp ./result/* /var/www/html/ -r
+	chmod +222 /var/www/html/data.txt
