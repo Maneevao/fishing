@@ -34,7 +34,7 @@ def step(ext, dirname, names):
         html = f.read()
         f.close()
 
-        ChangeHtml(html,catcher)
+        html = ChangeHtml(html,catcher)
 
         f = open(path,"w")
         f.write(html)
