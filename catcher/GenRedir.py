@@ -24,6 +24,10 @@ system("mkdir -p " +ResultDirectory)
 system("cp -f " + PHPscript + " " + join(ResultDirectory,"catcher.php"))
 
 f = open(join(ResultDirectory,"catcher.php"),"a");
+f.write("$Host=\"" + Host +"\";")
+f.write("$service = substr($res4,strlen($Host));")
+f.write("$service = substr($service,0,strpos($service,\"/\"));")
+f.write("switch ($service){")
 for service in Services:
     f.write('case "' + service + '":\n')
     f.write('    header("Location: "' + Host + service + ');\n')
