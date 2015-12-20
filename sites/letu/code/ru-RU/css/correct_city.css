@@ -1,0 +1,49 @@
+.selectCity h3{
+	color: #004890;
+	margin-bottom: 10px;
+}
+.selectCity .quickViewContainerHeader p {
+	line-height: normal;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.selectCity input[type="text"] {
+	width: 400px;
+	float: left;
+	margin-bottom: 10px;
+}
+#selectCity {display: block; font-size: 14px; height: 23px; padding-top: 5px; text-align: center; text-decoration: none; width: 114px; margin-top: -2px;}
+  #selectCity:hover{color: #FFFFFF;}
+  #selectCity:focus{outline:none;}
+  
+.selectCity a.btn {
+	float: right;
+		margin-bottom: 10px;
+}
+ul.cities {
+	float: left;
+	width: 130px;
+}
+ul.citiesFirst {
+	float: left;
+	width: 100%;
+}
+.cities li, .citiesFirst li {
+	cursor: pointer;
+}
+.citiesFirst li {
+	color: #d61187;
+}
+.cities li:hover,.citiesFirst li:hover {
+	text-decoration: underline;
+	color: #d61187;
+}
+.formContainer dd span.otherCityWarningMessage, div.selectCity span.otherCityWarningMessage {
+	padding-left: 0px;
+	line-height: 13px;
+	background-position: left 0px;
+}
+div.selectCity span.otherCityWarningMessage {
+	padding-bottom: 15px;
+}
+#updateCurrentCityButton, #updateCurrentCityWithStoresButton { width: 114px;height: 28px;font-size: 14px;text-align: center;text-decoration: none;margin-top: -2px;margin-left: 2px; }

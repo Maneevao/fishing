@@ -1,0 +1,1637 @@
+form {
+
+padding:0px;
+
+margin:0px;
+
+}
+
+
+
+body{
+
+    padding: 0px;
+
+    margin: 0px;
+
+    font-family: Arial;
+
+    font-size: 11px;
+
+    color: #000000;
+
+    cursor: default;
+
+}
+
+body#wrapper {
+	min-width: 1240px; 
+}
+
+table.head{
+
+    background: url(http://www.ttshop.ru/includes/templates/purpleshades/css/i/bghead.gif) repeat-x;
+
+}
+
+
+
+table.shoppingcart-table{
+
+    background: url(http://www.ttshop.ru/includes/templates/purpleshades/css/i/bgmenu.gif) repeat-y;
+
+}
+
+table.ddmenu{
+
+    background: url(http://www.ttshop.ru/includes/templates/purpleshades/css/i/bgmenu.gif) repeat-y;
+
+}
+/*
+table.tblnew{
+
+    border-left: 1px solid #e34101;
+
+    border-right: 1px solid #e34101;
+
+    border-bottom: 1px solid #e34101;
+
+}
+*/
+
+table.tblnew{
+
+    border-left: 1px solid #419130;
+
+    border-right: 1px solid #419130;
+
+    border-bottom: 1px solid #419130;
+
+}
+
+table.tblrecom{
+
+    border-left: 1px solid #08498e;
+
+    border-right: 1px solid #08498e;
+
+    border-bottom: 1px solid #08498e;
+
+}
+
+
+/*
+table.tblspec{
+
+    border-left: 1px solid #419130;
+
+    border-right: 1px solid #419130;
+
+    border-bottom: 1px solid #419130;
+
+}
+
+*/
+
+
+table.tblspec{
+
+    border-left: 1px solid #e34101;
+
+    border-right: 1px solid #e34101;
+
+    border-bottom: 1px solid #e34101;
+
+}
+
+
+table.tbldef{
+
+    border-left: 1px solid #999999;
+
+    border-right: 1px solid #999999;
+
+    border-bottom: 1px solid #999999;
+
+    border-top: 3px solid #999999;
+
+}
+
+input.login, input.sear{
+
+    width: 160px;
+
+    height: 17px;
+
+    border: 1px solid #073f81;
+
+    padding: 0px;
+
+    background: url(http://www.ttshop.ru/includes/templates/purpleshades/css/i/bginput.gif) repeat-x;
+
+}
+
+input.sear{
+
+    width: 150px;
+
+}
+
+input.subimg{
+
+    cursor: pointer;
+
+}
+
+input.num{
+
+    width: 60px;
+
+    height: 15px;
+
+    padding: 0px;
+
+    font-size: 11px;
+
+}
+
+input.reg{
+
+    width: 250px;
+
+}
+
+select.combobox{
+
+    width: 100%;
+
+}
+
+textarea.message{
+
+    width: 250px;
+
+    height: 110px;
+
+}
+
+.warial11{
+
+    font-family: Arial;
+
+    font-size: 11px;
+
+    color: #ffffff;
+
+}
+
+.rarial11{
+
+    font-family: Arial;
+
+    font-size: 11px;
+
+    color: #e34101;
+
+}
+
+.rarial12bf{
+
+    font-weight: bold;
+
+    font-family: Arial;
+
+    font-size: 12px;
+
+    color: #08498E;
+
+    white-space:nowrap;
+
+}
+
+.rarial12bs{
+
+    font-weight: bold;
+
+    font-family: Arial;
+
+    font-size: 12px;
+
+ /*   color: #419130; */
+
+     color: #e34101; 
+ 
+    white-space:nowrap;
+
+}
+
+.rarial12, .rarial12b, .rarial13{
+
+    font-family: Arial;
+
+    font-size: 12px;
+
+ /*   color: #e34101; */
+ 
+    color: #419130;  
+
+    white-space:nowrap;
+
+}
+
+.rarial13{
+
+    font-size: 13px;
+
+}
+
+.rarial12b{
+
+    font-weight: bold;
+
+}
+
+td.search{
+
+    background: url(http://www.ttshop.ru/includes/templates/purpleshades/css/i/bgsearch.gif) repeat-x;
+
+    border-right: 1px solid #ffffff;
+
+}
+
+td.topmenu{
+
+    background: url(http://www.ttshop.ru/includes/templates/purpleshades/css/i/bgtopmenu.gif) repeat-x;
+
+    text-align: center;
+
+    vertical-align:middle;
+
+}
+
+td.thngheader{
+
+    background: url(http://www.ttshop.ru/includes/templates/purpleshades/css/i/bgabout.gif) repeat-x;
+
+    color: #ffffff;
+
+    padding-left: 10px;
+
+    font-weight: bold;
+
+    text-align: left;
+
+}
+
+td.thng{
+    color: #484848;
+    padding-left: 10px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    border-bottom: 1px solid #e8e8e8;
+    font-size: 12px;
+	height: 34px;
+}
+
+td.status_legend {
+    color: #484848;
+    padding-left: 10px;
+    font-size: 11px;
+	height: 17px;
+
+}
+td.status_legend img {
+	margin-top: 0px;
+	padding: 0px;
+	float: left;
+}
+.status_legend_desc {
+	padding-bottom: 2px;
+	float: left;
+	padding-left: 10px;
+}
+
+td.thngimg{
+    padding-bottom: 4px;
+    padding-top: 4px;
+    border-bottom: 1px solid #e8e8e8;
+	height: 41px;
+}
+
+.thngprice{
+    color: #e34101;
+    padding-left: 2px;
+    font-weight: bold;
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    font-size: 13px;
+    text-align: left;
+	height: 34px !important;
+	cursor: pointer !important; 
+}
+
+.thngprice span {border-bottom: 1px dashed #e34101;}
+.thngprice span span {border-bottom: 0px !important;}
+.thngprice span:hover {color: #ff6c32; border-bottom: 1px dashed #ff6c32;}
+
+td.thngprcart, td.thngprcartall{
+
+    padding-left: 10px;
+    font-weight: normal;
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    font-size: 11px;
+	height: 34px !important;
+}
+
+td.thngprcartall{
+    font-weight: bold;
+}
+
+td.thngcart{
+    background: #e34101;
+    border-bottom: 1px solid #e8e8e8;
+	height: 34px !important;
+	min-width: 190px;
+}
+
+
+#specials-table, .shoppingcart-table, #whatsnew-table, #featured-table, #reviews-table, #news-manager-table {
+margin-top: 15px;
+}
+
+#specials-content, #whatsnew-content, #featured-content, #reviews-content, #bestsellers-content, #news-manager-table {
+font-size: 12px;
+}
+
+#specials-content a, #whatsnew-content a, #featured-content a, #reviews-content a, #bestsellers-content a, #news-manager-table {
+font-size: 12px;
+}
+
+
+#specials-table td, .shoppingcart-table td, #whatsnew-table td, #featured-table td, #reviews-table td, #news-manager-table td {
+padding: 2px;
+padding-left: 0px;
+padding-right: 3px;
+}
+
+
+td.pbarselec{
+
+    background: #e34101;
+
+    font-size: 12px;
+
+    color: #ffffff;
+
+}
+
+td.hotline{
+
+    background: #084b91;
+
+    font-family: Arial;
+
+    font-size: 11px;
+
+    color: #ffffff;
+
+}
+
+td.grline{
+
+    background: #e8e8e8;
+    padding: 0px;
+    height: 4px;
+
+}
+
+td.bgrecombox{
+
+    background: #08498e;
+    padding: 0px;
+    height: 4px;
+
+}
+
+td.bgnewbox{
+    background: #419130;
+    /*background: #e34101;*/ 
+    padding: 0px;
+    height: 4px;
+
+}
+
+td.bgscecbox{
+	background: #e34101;
+    /*background: #419130; */
+    padding: 0px;
+    height: 4px;
+
+}
+
+
+
+.bottpr{
+
+    border-bottom: 1px solid #e8e8e8;
+
+    margin-bottom: 5px;
+
+}
+
+
+
+td.rdline{
+
+    background: #e34101;
+    padding: 0px;
+    height: 4px;
+
+}
+
+td.bigborder{
+
+    border-bottom: 4px solid #419130;
+    /*border-bottom: 4px solid #e34101;*/
+    padding: 0px;
+
+}
+
+td.bigborderf{
+
+    border-bottom: 4px solid #08498E;
+    padding: 0px;
+
+}
+
+td.bigborders{
+	border-bottom: 4px solid #e34101;
+    /*border-bottom: 4px solid #419130;*/
+    padding: 0px;
+
+}
+
+td.tahoma24{
+
+    font-family: Tahoma;
+
+    font-size: 24px;
+
+    color: #e34101;
+
+    padding-bottom: 14px;
+
+    padding-top: 7px;
+
+}
+
+td.menuselec{
+
+    background: url(http://www.ttshop.ru/includes/templates/purpleshades/css/i/bgmenuitem.gif) repeat-x;
+
+}
+
+td.menuitem{
+
+    background: url(http://www.ttshop.ru/includes/templates/purpleshades/css/i/bgmenui.gif) repeat-x;
+    height: 23px;
+
+}
+
+td.menuitema{
+
+    background: url(http://www.ttshop.ru/includes/templates/purpleshades/css/i/bgmenuia.gif) repeat-x;
+    height: 23px;
+
+}
+
+td.menuarr {
+height: 23px;
+}
+
+td.menuitem_arr {
+height: 23px;
+padding: 0px;
+}
+
+td.menuitemspec{
+
+    background: url(http://www.ttshop.ru/includes/templates/purpleshades/css/i/bgmenu.gif) repeat-y;
+    border: 1px solid #ccc;
+    border-left: 0px;
+
+}
+
+td.date{
+
+    font-family: Arial;
+
+    font-size: 11px;
+
+    color: #8c8c8c;
+
+    padding-top: 10px;
+
+    padding-bottom: 6px;
+
+}
+
+td.grarial11{
+
+    font-family: Arial;
+
+    font-size: 11px;
+
+    color: #8c8c8c;
+
+}
+
+td.content{
+
+    padding-left: 40px;
+
+    padding-top: 22px;
+
+    padding-right: 33px;
+
+    padding-bottom: 40px;
+
+}
+
+.rarial16{
+
+    font-family: Arial;
+
+    font-size: 16px;
+
+    color: #e34101;
+
+    padding-top: 2px;
+
+}
+
+.barial11{
+
+    font-family: Arial;
+
+    font-size: 11px;
+
+    color: #000000;
+
+    padding-top: 3px;
+
+}
+
+.skidka{
+
+    color: #484848;
+
+    font-weight: normal;
+
+}
+
+.oldprice{
+
+    color: #484848;
+
+    text-decoration: line-through;
+
+    font-weight: normal;
+
+}
+
+td.bottline{
+
+    background: url(http://www.ttshop.ru/includes/templates/purpleshades/css/i/bgbottline.gif) repeat-x;
+
+}
+/*
+td.bgnew{
+
+    background: url(i/bgnew.gif) repeat-x;
+
+}
+*/
+td.bgnew{
+
+    background: url(http://www.ttshop.ru/includes/templates/purpleshades/css/i/bgspec.gif) repeat-x;
+    width: 100%;
+    text-align: right;
+
+}
+
+td.bgrecom{
+
+    background: url(http://www.ttshop.ru/includes/templates/purpleshades/css/i/bgrecom.gif) repeat-x;
+    width: 100%;
+    text-align: right;    
+
+}
+
+/*
+td.bgspec{
+
+    background: url(i/bgspec.gif) repeat-x;
+
+}
+*/
+
+td.bgspec{
+
+    background: url(http://www.ttshop.ru/includes/templates/purpleshades/css/i/bgnew.gif) repeat-x;
+    width: 100%;
+        text-align: right;
+
+}
+
+td.bottext{
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+
+.bottext_contacts{
+	width: 558px; 
+	float: left;
+}
+
+.bottext_icons{
+	width: 230px;
+	float: right;
+}
+
+.bottext_counters{
+	width: 180px; 
+	float: left;
+}
+
+
+.bottext_contacts_text{
+	float: right;
+	font-size: 14px;
+    color: #023169;
+}
+
+.bottext_copy {
+    color: #023169;
+    font-weight: bold;
+	font-size: 10px;
+}
+
+
+.phone{
+
+    font-family: Arial;
+
+    font-size: 14px;
+
+    color: #ffffff;
+
+    font-weight: bold;
+
+}
+
+.phone_address {
+	font-family: Arial;
+	font-size: 10px;
+
+}
+
+.ddselec{
+
+    font-weight: bold;
+
+    font-family: Arial;
+
+    color: #e34101;
+
+    padding-left: 6px;
+
+    font-size: 11px;
+
+}
+
+
+a.white, a.whitebig{
+
+    font-family: Arial;
+
+    font-size: 11px;
+
+    color: #ffffff;
+
+}
+
+a.whitebig, a.mmenu{
+
+    font-size: 12px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    color: #f0f3f6;
+
+    font-family: Arial;
+
+}
+
+a.mmenu2{
+
+    font-size: 12px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    color: #222222;
+
+    font-family: Arial;
+
+}
+
+a.info{
+
+    font-family: Arial;
+
+    font-size: 11px;
+
+    color: #08498e;
+
+}
+
+a.newslink{
+
+    font-family: Arial;
+
+    font-size: 14px;
+
+    color: #08498e;
+
+}
+
+a.thnglink{
+
+    font-family: Arial;
+
+    font-size: 12px;
+
+    color: #08498e;
+
+}
+
+a.mmenu, a.mmenu2{
+
+    padding-left: 5px;
+
+}
+
+a.whitebig:hover, a.mmenu:hover{
+
+    color: #ffffff;
+
+}
+
+a.mmenu2:hover{
+
+    color: #000;
+
+}
+
+a.white:hover, a.info:hover{
+
+    text-decoration: none;
+
+}
+
+a.ddlink{
+
+    font-family: Arial;
+
+    font-size: 11px;
+
+    padding-left: 6px;
+
+    text-decoration: none;
+
+    color: #484848;
+
+}
+
+a.adres{
+
+    font-family: Arial;
+
+    font-size: 11px;
+
+    color: #828282;
+
+}
+
+a.adres:hover{
+
+    text-decoration: none;
+
+}
+
+a.ddlink:hover{
+
+    text-decoration: underline;
+
+}
+
+a.toggle {
+	display: inline-block; text-decoration: none; border-bottom: 1px dashed #08498e;
+
+}
+
+img.grborder{
+
+    border: 1px solid #e8e8e8;
+
+}
+
+.productSpecialPrice, .productSalePrice, .productSpecialPriceSale, .productPriceDiscount {
+
+	color: #ff0000;
+
+	}
+
+.moduleRow { }
+
+.moduleRowOver { background-color: #D7E9F7; cursor: pointer; }
+
+.moduleRowSelected { background-color: #E9F4FC; }
+
+
+
+.messageStackSuccess, .messageStackError {
+
+border: 1px solid #335f87;
+
+background-color: #b2d7f9;
+
+}
+
+.products_prev_next {
+margin-top: 15px;
+}
+
+.table_products_listing {
+margin-bottom: 40px;
+}
+
+.sidebox_news {margin-top: 15px; border-top: 4px solid #e8e8e8; padding-top: 5px;}
+.sidebox_news_item {margin-bottom: 20px;}
+.sidebox_news_item_header {margin-bottom: 4px; font-size: 14px;}
+.sidebox_news_item_header a {color: #08498e; text-decoration: underline;}
+.sidebox_news_item_text {font-size: 11px;}
+
+
+.main_l {width: 300px; font-size: 13px; padding: 4px;}
+.main {}
+
+
+.row_to_select {
+font-size: 12px;
+padding: 4px;
+vertical-align: middle;
+}
+
+.row_to_select_header {
+font-size: 12px;
+padding-top: 10px;
+}
+
+.sidebox_price {
+background: url(../../../../images/pricearr.gif) 0 50% no-repeat;
+padding-left: 15px;
+color: #e34101;
+white-space:nowrap;
+margin-top: 2px;
+}
+
+.small_img {
+margin-bottom: 8px;
+}
+
+
+a.video_link {
+display: block;
+width: 80px;
+height: 100px;
+float: left;
+background: url(http://www.ttshop.ru/images/video_button.png) 50% 0 no-repeat;
+text-align: center;
+font-size: 12px;
+color: #08498e;
+}
+
+a.video_link:hover, a.video_link:active  {
+background: url(http://www.ttshop.ru/images/video_button.png) 50% 100% no-repeat;
+}
+
+.video_link span {display: block; margin-top: 68px;}
+
+.product_listing_image {
+width: 90px;
+text-align: left;
+padding-left: 3px;
+}
+
+.products_listing_price {
+vertical-align: bottom; 
+padding-bottom: 20px;
+}
+
+.products_listing_name {
+vertical-align: top; 
+padding-top: 2px;
+
+}
+
+h1 {
+font-family: Tahoma;
+font-size: 24px;
+color: #e34101;
+padding-bottom: 14px;
+padding-top: 7px;
+font-weight: normal;
+}
+
+.plainBoxHeading {
+font-size: 12px; 
+padding: 2px;
+}
+
+.iconset_text {
+vertical-align: middle;
+padding-right: 10px;
+}
+
+.iconset {
+vertical-align: middle;
+}
+
+.iconset a {
+text-decoration: none;
+}
+
+.iconset_text a {
+color: #08498e;
+}
+
+.clearfix:after {
+    content: "EasyClearing";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+html>body .clearfix { display: block; }
+.clearfix { display: inline-block; }
+/*\*/
+* html .clearfix { height: 1%; }
+/**/
+
+.onebutton {
+    display: table;
+    margin: .5em 0;
+    position: relative;
+}
+
+.onebutton .atb {
+    font-weight: bold;
+    cursor: pointer;
+    color: #154BA0;
+}
+
+.onebutton:hover #sharepage {
+    display: block !important;
+}
+
+#sharepage {
+    border: 1px solid #CCC;
+    padding: 0 0 5px 5px;
+    width: 495px;
+    position: absolute;
+    background: #FFF;
+    z-index: 10;
+    display: none;
+}
+
+#sharepage .title {
+    text-align: center;
+    color: #fff;
+    margin: 0 0 5px -5px;
+    font: bold 13px Verdana, Tahoma, Arial, Helvetica, sans-seif;
+    background: url(http://www.ttshop.ru/includes/templates/purpleshades/css/i/bgabout.gif) repeat-x;
+    padding: 2px 0;
+    border-bottom: 1px solid #CCC;
+}
+
+#sharepage ul {
+    display: block;
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style: none !important;
+}
+
+#sharepage li {
+    font: 12px Verdana, Tahoma, Arial, Helvetica, sans-seif;
+    display: block;
+    margin: 1px 10px 2px 0 !important;
+    padding: 0 0 0 19px !important;
+    background: url(http://www.ttshop.ru/images/add.png) no-repeat;
+    height: 16px;
+    line-height: 16px;
+    overflow: hidden;
+    cursor: pointer;
+    float: left;
+    width: 130px;
+    list-style: none !important;
+}
+
+#sharepage li#blink { background-position: 0 0; }
+#sharepage li#delicious { background-position: 0 -15px; }
+#sharepage li#digg { background-position: 0 -30px; }
+#sharepage li#furl { background-position: 0 -45px; }
+#sharepage li#google { background-position: 0 -60px; }
+#sharepage li#simpy { background-position: 0 -75px; }
+#sharepage li#spurl { background-position: 0 -90px; }
+#sharepage li#ymyweb { background-position: 0 -105px; }
+#sharepage li#bobrdobr { background-position: 0 -121px; }
+#sharepage li#mrwong { background-position: 0 -137px; }
+#sharepage li#yabm { background-position: 0 -153px; }
+#sharepage li#text20 { background-position: 0 -169px; }
+#sharepage li#news2 { background-position: 0 -185px; }
+#sharepage li#addscoop { background-position: 0 -201px; }
+#sharepage li#ruspace { background-position: 0 -217px; }
+#sharepage li#rumarkz { background-position: 0 -233px; }
+#sharepage li#memori { background-position: 0 -249px; }
+#sharepage li#googlebm { background-position: 0 -265px; }
+#sharepage li#pisali { background-position: 0 -281px; }
+#sharepage li#smi2 { background-position: 0 -297px; }
+#sharepage li#myplace { background-position: 0 -313px; }
+#sharepage li#bm100 { background-position: 0 -329px; }
+#sharepage li#wow { background-position: 0 -345px; }
+#sharepage li#technorati { background-position: 0 -361px; }
+#sharepage li#rucity { background-position: 0 -377px; }
+#sharepage li#linkstore { background-position: 0 -393px; }
+#sharepage li#newsland { background-position: 0 -409px; }
+#sharepage li#lopas { background-position: 0 -425px; }
+#sharepage li#liua { background-position: 0 -441px; }
+#sharepage li#connotea { background-position: 0 -457px; }
+#sharepage li#bibsonomy { background-position: 0 -473px; }
+#sharepage li#trucking { background-position: 0 -489px; }
+#sharepage li#communizm { background-position: 0 -505px; }
+#sharepage li#uca { background-position: 0 -521px; }
+
+#sharepage li a {
+    text-decoration: none;
+    display: block;
+    outline: 0;
+}
+
+#sharepage li a:hover {
+    text-decoration: none;
+}
+
+#sharepage li:hover { 
+    background-color: #FFA;
+}
+
+* html .onebutton { z-index: 5; width: 100px; }
+*:first-child+html .onebutton { z-index: 5; width: 100px; }
+* html .onebutton .atb { display: none; }
+* html .onebutton .atb2 { display: none; }
+* html .onebutton a.obie { text-decoration: underline; color: #08498e; background: url(http://www.ttshop.ru/images/icons/fav.gif) 0 0 no-repeat; padding-left: 25px; height: 22px; width: 100px; display: block; float: left;}
+* html .onebutton table, * html .onebutton td { margin: 0; padding: 0; border-collapse: collapse; }
+* html .onebutton table { left: 0; top: 16px; position: absolute; visibility: hidden; }
+* html body .onebutton a:hover { position: static; }
+* html body .onebutton a:hover table { visibility: visible; }
+* html .onebutton a #sharepage { display: block; position: static; width: 475px; }
+* html .onebutton #sharepage { left: 0; top: 22px; }
+*:first-child+html #sharepage { left: 0; top: 22px; }
+* html #sharepage li a:hover { text-decoration: underline; }
+* html #sharepage .title { margin-right: -10px; }
+* html table #sharepage .title { margin-right: 0; }
+
+.reviews_header {
+font-size: 15px;
+color: #e34101;
+margin-top: 20px;
+margin-bottom: 5px;
+font-weight: bold;
+}
+
+.reviews_rating {
+font-size: 15px;
+margin-top: 5px;
+margin-bottom: 2px;
+font-weight: bold;
+color: #555;
+}
+
+.reviews_header a {
+color: #08498e;
+font-size: 15px;
+}
+
+.review {
+font-size: 12px;
+margin-top: 10px;
+margin-bottom: 5px;
+border-bottom: 1px solid #ccc;
+padding-bottom: 5px;
+float: left;
+}
+.review_data {
+float: left;
+width: 100%;
+height: 20px;
+}
+.review_author {
+font-size: 12px;
+font-weight: bold;
+float: left;
+width: 250px;
+text-align: left;
+}
+.review_date {
+width: 200px;
+text-align: right;
+float: right;
+font-style: italic;
+color: #555;
+}
+.review_text {
+font-size: 11px;
+float: left;
+width: 100%;
+}
+.write_review_field_comment {
+font-size: 10px;
+color: #ccc;
+width: 100%;
+float: left;
+}
+.review_answer {
+background: #efefef;
+border: 1px dashed #ccc;
+margin-left: 20px;
+padding: 2px;
+margin-bottom: 4px;
+width: 100%;
+float: left;
+
+}
+.review_rating{
+margin-top: 18px;
+}
+
+#table_of_sizes_button {
+width: 100%;
+float: right;
+text-align: right;
+
+}
+
+.main_heading {
+	font-size: 16px !important;
+	padding: 5px 0px 2px 0px;
+}
+.main_text {
+	font-size: 13px !important;
+	padding: 2px 0px 2px 0px;
+}
+.may_be_payed_ok {padding: 5px; border: 1px solid #57ffa2; font-size: 13px;}
+.may_be_payed_wait {padding: 5px; background: #fff157; font-size: 13px;}
+.may_be_payed_gotopay {clear: both; cursor: pointer; background: url('http://www.ttshop.ru/images/gotopay.png') 0 0 no-repeat; width: 190px; height: 61px; border: 0px; }
+.may_be_payed_payed {padding: 5px; background: #57ffa2; font-size: 13px; font-weight: bold;}
+table.cart_order_totals td {padding: 3px 0 10px 0; border-bottom: 2px solid #e8e8e8; font-size: 12px;}
+
+.buy_button {background: #e34101 url('http://www.ttshop.ru/includes/templates/template_default/buttons/russian/button_buy_now.gif') 10px 50% no-repeat; height: 26px; padding-bottom: 2px; border: 0px solid #000; width: 100px; color: #fff; padding-left: 25px; text-decoration: underline !important; cursor: pointer;}
+.cart_quantity {width: 20px;  margin-top: 0px;}
+.cart_quantity_measure {color: #fff; font-size: 12px; padding-left: 2px; padding-top: 5px; }
+
+.infopage_text {font-size: 12px;}
+.infopage_text ul, .infopage_text ol {margin-left: 20px;}
+
+td.menuitemdisc{
+   /* background: url('i/menuarrdisc.jpg') repeat-y;*/
+    background: url('http://www.ttshop.ru/includes/templates/purpleshades/css/i/menuitemnew.jpg') repeat-y;   
+    border: 1px solid #ccc;
+    border-left: 0px;
+}
+td.menuitemrecomm{
+    background: url('http://www.ttshop.ru/includes/templates/purpleshades/css/i/menuitemrecomm.jpg') repeat-y;
+    border: 1px solid #ccc;
+    border-left: 0px;
+}
+td.menuitemnew{
+	
+    background: url('http://www.ttshop.ru/includes/templates/purpleshades/css/i/menuarrdisc.jpg') repeat-y;	
+/*    background: url('i/menuitemnew.jpg') repeat-y; */
+    border: 1px solid #ccc;
+    border-left: 0px;
+}
+
+#vk_like {
+	margin: 15px 0 10px 0;
+}
+
+.right_block_top{
+    background: url(http://www.ttshop.ru/includes/templates/purpleshades/css/i/bg_box_top.png) 0 0 no-repeat;
+	margin: 10px 0 0 0;
+	padding-top: 6px;
+}
+
+.right_block_bot{
+    background: url(http://www.ttshop.ru/includes/templates/purpleshades/css/i/bg_box_bot.png) 0 100% no-repeat;
+	height: 6px;
+	margin: 0;
+}
+
+.overall_stats {
+	padding: 6px 10px;
+}
+
+
+#manuAllWrapper {
+
+	
+	}
+
+#manuAllHeading {
+	
+	}
+#manufacturersAll {
+	clear: both;
+	vertical-align: top;
+	text-align: center;
+	margin: 0 auto;
+
+	}
+
+#ManuWrapper {
+	float: left;
+	padding: 10px;
+	text-align: center;
+	font-size: 14px;
+	width: 100px;
+	}
+
+#ManuWrapper img {
+
+	margin-bottom: 4px;
+	}
+
+.products_listing_video_icon {
+
+	width: 16px;
+	height: 14px;
+	float: right;
+	margin: 3px 7px 0 0; 
+}
+
+.all_products_list {border-collapse: collapse; }
+.all_products_list td {margin: 0px; border: 1px solid #ccc; border-collapse: collapse; }
+.all_products_list_cat {font-size: 16px; padding: 0 10px; background: url(http://www.ttshop.ru/includes/templates/purpleshades/css/i/bgabout.gif) repeat-x; color: #fff; height: 25px;}
+
+
+.new_parent {border-top: 2px solid #ccc !important;}
+.all_head {background: #527fb1; font-weight: bold; color: #fff;}
+
+.all_tr_hover:hover {background: #527fb1;}
+
+.all_pr_name {padding-left: 20px;}
+.all_pr_qty {width: 50px !important; text-align: center;}
+.all_pr_price {width: 130px !important; text-align: center;}
+.all_pr_cart {width: 150px; background: #e34101; color: #fff; padding: 2px 2px 0px 10px;}
+.all_buy_button {background: #e34101 url('http://www.ttshop.ru/includes/templates/template_default/buttons/russian/button_buy_now.gif') 10px 50% no-repeat; border: 0px  solid #fff !important; width: 100px; color: #fff; padding-left: 25px; text-decoration: underline !important; cursor: pointer;}
+.all_buy_button:hover {color: #121212;}
+/* .all_new {background: #fdddd0;}
+.all_special {background: #d6ead1;}
+.all_featured  {background: #dde5f0;} */
+.all_products_list_pr_price_stroke {text-decoration: line-through !important;}
+
+
+#good_description {float: left; margin: 0px; width: 100% !important; clear: both; height: 100%;}
+
+ul#good_description_selector {clear: both; margin: 0; padding: 0; list-style: none; display: block; width: 100% !important;  float: left; height: 26px; background: url(http://www.ttshop.ru/includes/templates/purpleshades/css/i/bg_desc_selector.png) 0 100% repeat-x;}
+
+ul#good_description_selector li {display: block; float: left; text-align: center;  height: 26px; }
+
+ul#good_description_selector li a { text-decoration: none; display: block; height: 26px; padding: 0px 40px; font-size: 12px; font-weight: bold; line-height: 26px; color: #08498e; background: url(http://www.ttshop.ru/includes/templates/purpleshades/css/i/bgabout.gif) repeat-x; color: #fff; border-radius: 3px; }
+
+ul#good_description_selector li a:hover, ul#good_description_selector li a.current { text-decoration: none; display: block; background: url(http://www.ttshop.ru/includes/templates/purpleshades/css/i/bgabouta.gif) repeat-x; color: #fff; border-radius: 3px;}
+
+
+ul#good_description_selector li a span { border-bottom: 1px dashed #fff;  }
+ul#good_description_selector li a.current span { border-bottom: 0px dashed #fff; }
+
+#description_details,  #description_reviews {float: left; width: 100% !important; padding: 15px 6px 0 6px;}
+
+
+
+
+ul#qty_selector {clear: both; margin: 0; padding: 0; list-style: none; display: block; width: 100% !important;  float: left; height: 26px; background: url(http://www.ttshop.ru/includes/templates/purpleshades/css/i/bg_desc_selector.png) 0 100% repeat-x; min-width: 675px;}
+
+ul#qty_selector li {display: block; float: left; text-align: center;  height: 26px; }
+
+ul#qty_selector li a { text-decoration: none; display: block; height: 26px; padding: 0px 10px; font-size: 12px; font-weight: bold; line-height: 26px; color: #08498e; background: url(http://www.ttshop.ru/includes/templates/purpleshades/css/i/bgabout.gif) repeat-x; color: #fff; border-radius: 3px; }
+
+ul#qty_selector li a:hover, ul#qty_selector li a.current { text-decoration: none; display: block; background: url(http://www.ttshop.ru/includes/templates/purpleshades/css/i/bgabouta.gif) repeat-x; color: #fff; border-radius: 3px;}
+
+
+ul#qty_selector li a span { border-bottom: 1px dashed #fff;  }
+ul#qty_selector li a.current span { border-bottom: 0px dashed #fff; }
+
+
+.notify_button {color: #fff; background: #1c5898;}
+.notify_email {width: 100px !important;}
+
+.likes_and_share {float: left; clear: both; width: 300px;}
+.likes {float: left; width: 150px;  }
+.share {float: right;}
+.vk_share_link {display: block; background: url(http://www.ttshop.ru/images/share_vk.png) 0 0 no-repeat; padding: 0px 0px 0px 15px; line-height: 22px; width: 103px; height: 22px; border: 0px; color: #2B587A !important; text-decoration: none; 	margin: 15px 0 10px 0;}
+.vk_share_link:hover {background: url(http://www.ttshop.ru/images/share_vk.png) 0 -22px no-repeat; }
+
+.catalog_wrapper {background: url('http://www.ttshop.ru/spots/catalog2012.jpg') 0 0 no-repeat; width: 186px; height: 263px; text-align: center; margin-left: 3px; opacity: 0.8;}
+.catalog_inner {width: 186px; height: 263px; }
+.catalog_caption {color: #fff; text-align: center; font-size: 14px; height: 30px; padding: 10px 0; width: 186px; background: #000; opacity: 0.75;}
+
+a.catalog_inner_1, a.catalog_inner_2 {font-size: 24px ! important; color: #fff ! important; font-weight: bold; dispay: block; float: left; width: 186px; height: 116px; text-align: center; }
+a.catalog_inner_1:hover, a.catalog_inner_2:hover {color: #ccc;}
+a.catalog_inner_1 {padding-top: 2px;}
+
+.thngheader_top{
+    position:relative;
+}
+/* Документ CSS*/
+#trigger {
+	text-align:center;
+}
+
+/* Стили для модальных всплывающих окон, можно менять по желанию */
+.popupbox {
+    display: none;
+    height: 390px;
+    margin-left: -10px;
+    margin-top: -52px;
+    position: absolute;
+    width: 450px;
+	
+}
+#fade { 
+	display: none; /* Скрыто по умолчанию */
+	position: fixed; left: 0; top: 0px;
+	width: 100%; height: 100%;
+	z-index: 999;
+}
+#intabdiv {
+    padding: 3px 5px;
+}
+
+/* Стили для таблицы модального окна */
+#intabdiv table{
+    /* color: #1C5898; */
+	color: #e34101;
+    font-size: 12px;
+    font-style: italic;
+    height: 100%;
+    width: 100%;
+    background: url(http://www.ttshop.ru/images/modal_bg2.png) repeat scroll 0 0;
+    -webkit-box-shadow: 0px 0px 20px #000;
+	-moz-box-shadow: 0px 0px 20px #000;
+	box-shadow: 0px 0px 20px #000;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;     
+	margin-top: 16px;
+}
+.intabtext {color: #1C5898;}
+
+#intabdiv table  tr{
+    padding: 8px 0;
+}
+tr.first_tr td{
+    padding: 0 0 6px !important;
+}
+#intabdiv table th{
+    font-size: 14px;
+	border-bottom: 1px solid #1C5898;
+}
+#intabdiv table th.first{
+    font-size: 12px;
+}
+#intabdiv table td{
+   border-bottom: 1px solid #1C5898;
+    height: 34px !important;
+}
+
+#tovar24 {width: 640px; height: 174px; background: url(http://www.ttshop.ru/images/tovar24_bg.png) 0 0 no-repeat;}
+
+#tovar24_product {width: 100%; min-width: 640px; height: 174px; background: url(http://www.ttshop.ru/images/tovar24_product_bg.png) 0 0 repeat-x;}
+.tovar24_product_left {width: 100%; background: url(http://www.ttshop.ru/images/tovar24_product_left.png) 0 0 no-repeat;}
+.tovar24_product_right {width: 100%; background: url(http://www.ttshop.ru/images/tovar24_product_right.png) 100% 0 no-repeat;}
+
+.tovar24_item {}
+.tovar24_header {font-style: italic; color: #fff; font-weight: bold; width: 270px; float: left; font-size: 20px; margin-left: 30px; margin-top: 3px;}
+.tovar24_header span {color: #f6ff00 !important;}
+.tovar24_counter {width: 340px; float: right; height: 56px; text-align: center; margin-top: 6px;}
+.tovar24_counter_text {font-style: italic; color: #fff; font-weight: bold; font-size: 13px;}
+.tovar24_counter_text span {color: #f6ff00 !important;}
+.tovar24_counter_info {color: #a3a3a3; font-size: 12px; margin-top: 7px;}
+.tovar24_product {clear: both; width:460px; margin: 0 auto; padding-left: 20px; padding-top: 4px; height: 89px;}
+
+.tovar24_product h1 { margin-top: 0px;}
+
+
+.tovar24_product_image {margin-right: 10px !important; width: 80px; float: left; }
+.tovar24_product_info {float: right; width: 360px;}
+.tovar24_product_info_name .newslink {font-size: 18px !important; font-weight: normal !important;}
+.tovar24_product_info_price .thngprice {font-size: 24px !important; }
+.tovar24_info {clear: both; margin: 0 auto; text-align: center;}
+.tovar24_info a {color: #fff !important; font-size: 12px;}
+
+/* jQuery Countdown styles 1.5.11. */
+.hasCountdown {
+	border: 0px solid #ccc;
+/*	background-color: #eee; */
+}
+.countdown_rtl {
+	direction: rtl;
+}
+.countdown_holding span {
+/*	background-color: #ccc; */
+}
+.countdown_row {
+	clear: both;
+	width: 100%;
+	padding: 0px 2px;
+	text-align: center;
+}
+.countdown_show1 .countdown_section {
+	width: 98%;
+}
+.countdown_show2 .countdown_section {
+	width: 48%;
+}
+.countdown_show3 .countdown_section {
+	width: 32.5%;
+}
+.countdown_show4 .countdown_section {
+	width: 24.5%;
+}
+.countdown_show5 .countdown_section {
+	width: 19.5%;
+}
+.countdown_show6 .countdown_section {
+	width: 16.25%;
+}
+.countdown_show7 .countdown_section {
+	width: 14%;
+}
+.countdown_section {
+	display: block;
+	float: left;
+	font-size: 75%;
+	text-align: center;
+}
+.countdown_amount {
+	font-size: 200%;
+}
+.countdown_descr {
+	display: block;
+	width: 100%;
+}
+
+.tooltip{
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 3;
+   display: none;
+	background: #fff;
+	border: 1px solid #08498e;
+	font-weight: normal;
+	color: #08498e;
+	font-size: 10px;
+	padding: 1px 2px;
+	
+}
+
+.hidden_cell {display: none;}
+.qty_X {display: visible;}
+
+.reviews_section_header {font-weight: bold; font-style: italic;}
+
+tr.discountRed td {color: #cc0000;}
+
+.plus, .minus {color: #fff; font-size: 20px; font-weight: bold; padding: 0px; cursor: pointer;}
+.plus {padding-left: 4px;}
+.minus {padding-right: 6px;}
+.plus:hover, .minus:hover {color: #1c5898;}
+.plusminusCart {color: #000;}
+input.buy_button:hover {color: #1c5898; font-weight: bold;}
+
+.qty_description_item {border: 1px solid #08498e; padding: 2px 10px; border-radius: 3px; margin-bottom: 10px;}
+
+.table_order_status_history { border-collapse: collapse;}
+.table_order_status_history td {border: 1px solid #ccc; border-collapse: collapse; font-size: 12px; padding: 3px 5px;}
+
+.quick_order_status_check_form {padding: 10px;}
+.quick_order_status_check_form form label {width: 100%; text-align: left; font-size: 12px; display: block; margin-bottom: 5px;}
+.quick_order_status_check_form form input {border: 1px solid #ccc; width: 100px;}
+
+.currentCategory {font-weight: bold;}
+
+.sortLinks {margin: 10px 0 15px 0; font-size: 12px;}
+.sortLinks a {display: inline-block; background: #4a7aad; border: 1px solid #4a7aad; border-radius: 3px; padding: 3px 8px; color: #fff; text-decoration: none; font-size: 12px; margin-bottom: 3px;}
+.sortLinks a.sortLinkActive {background: #e34101; border: 1px solid #e34101;}
+.sortLinks a:hover, .sortLinks a:active  {background: #e34101; border: 1px solid #e34101;}
+
+
+#RECOMM {width: 100%;}
+
+#SPEC  {width: 100%;}
+
+#NEW {width: 100%;}
+
+.productListingNew {width: 100%;}
+
+.productListingSpecial {width: 100%;}
+
+.productListingRecomm {width: 100%;}
+
+
+.carousel {
+    border: 1px solid #084b91;
+    border-radius: 5px;
+    background-color: #084b91;
+    float: left;
+    padding-left: 10px;
+    color: #fff;
+}
+.carousel>ul>li>a>img {
+    width: 200px;
+    height: 150px;
+    vertical-align:middle;
+    margin: 10px 10px 10px 0;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    
+}
+
+.carousel>ul>li {padding: 2px 5px; width: 200px; display: block; margin:2px 0px;}
+.carousel a {color: #fff;}
+
+a.prev, a.next {
+    display: block;
+    width: 26px;
+    height: 30px;
+    line-height: 1;
+    background-color: #333333;
+    color: ghostwhite;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    border-radius: 8px;
+    float: left;
+}
+a.prev {
+margin: 50px -5px 0 0; text-indent: 7px;
+}
+a.next {
+margin: 50px 0 0 -5px; text-indent: 10px;
+}
+a.prev:hover, a.next:hover {
+    background-color: #666666;
+
+}	
+	
+.product-row-hide {
+	display: none;
+}
+
+.toggle-out-of-stock {
+    display: inline-block;
+    background: #4a7aad;
+    border: 1px solid #4a7aad;
+    border-radius: 3px;
+    padding: 3px 8px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+.toggle-out-of-stock:hover {
+	background: #e34101;
+	border: 1px solid #e34101;	
+}

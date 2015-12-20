@@ -1,0 +1,116 @@
+.tabs.personal-area-tabs li h2 a {
+    padding: 0 15px;
+}
+
+.wishes,
+.from-who,
+.for-who {
+    margin: 5px 0;
+}
+
+.wishes {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.from-who i,
+.for-who i{
+    width: 65px;
+    display: inline-block;
+}
+
+.tabCont.certificates {
+    padding: 40px 20px 0px 20px;
+}
+
+.tabCont.certificates .atg_store_cart {
+    width: 100%;
+}
+#atg_store_cart th {
+    text-align: left;
+}
+#atg_store_cart td.image {
+    width: 100px!important;
+}
+#atg_store_cart td.item {
+    width: 370px!important;
+}
+#atg_store_cart td.price {
+    text-align: left;
+    width: 220px!important;
+}
+.atg_store_productSummary td.term-of-use {
+    text-align: center;
+    font-size: 13px;
+    width: 140px!important;
+}
+.atg_store_productSummary td.status {
+    width: 87px!important;
+}
+
+
+#atg_store_cart th.term-of-use,
+#atg_store_cart th.status,
+.term-of-use,
+.status,
+.print-button-container {
+    text-align: center;
+}
+
+.certificates #atg_store_cart th {
+    vertical-align: middle;
+}
+
+.print-button-container a {
+    background: url("http://www.letu.ru/common/img/buttonBG.png") repeat-x top left;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.print-button-container a:hover {
+    opacity: 0.85;
+}
+.certificates .atg_store_productSummary.atg_store_cart .last-item td,
+.certificates .atg_store_productSummary.atg_store_cart {
+    border-bottom: none;
+}
+
+.tabs li {
+ width: 167px;
+}
+.tabs li h2 a {
+    padding: 0 0 0 10px;
+}
+
+/* Styles for print dialog */
+
+#print-dialog {
+    padding: 50px 50px 0 50px;
+}
+
+#print-dialog-content .sertValidity {
+    display: inline-block;
+    width: 27%;
+}
+
+#print-dialog-content .sertNumberOrder {
+    display: inline-block;
+    width: 26%;
+}
+
+#print-dialog-content .sertPinValue {
+    display: inline-block;
+    width: 45%;
+}
+
+.print-link {
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    margin: 20px auto;
+}
+
+.print-link:focus {
+    outline: none;
+}

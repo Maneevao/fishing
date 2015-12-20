@@ -1,0 +1,448 @@
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.sertificate-content {
+    margin-top: 30px;
+}
+
+.copyForCertificate {
+    width: 300px;
+}
+
+.field-group {
+    margin: 10px 0;
+}
+
+.field-group label {
+    float: left;
+    width: 120px;
+    margin-right: 10px;
+    text-align: right;
+    line-height: 24px;
+}
+
+.field-group input {
+    float: left;
+    width: 30%;
+}
+
+.field-group-inline > * {
+    float: left;
+}
+.field-group-inline input {
+    margin-left: 130px;
+}
+
+.atg_store_productSummaryContainer .backBtn {
+    float: right;
+    margin-bottom: 20px;
+}
+
+.add-to-cart {
+    text-align: center;
+}
+.atg_store_productSummary {
+    margin-bottom: 0;
+}
+.atg_store_productSummary td {
+    border-bottom: none;
+}
+.atg_store_productSummary th {
+    text-align: center;
+}
+
+.atg_store_productSummary th:first-child {
+    text-align: right;
+    padding-right: 51px;
+}
+
+.price-range-container {
+    position: relative;
+    padding-top: 8px;
+    padding-left: 15px;
+    text-align: left;
+}
+
+.price-range-container > span {
+    position: absolute;
+    width: 40px;
+    text-align: center;
+    height: 45px;
+}
+
+.price-range-container > span.top-position {
+    background: url("http://www.letu.ru/common/img/points-top-bg.png") no-repeat center bottom;
+    top: -50px;
+}
+
+.price-range-container > span.top-position-short {
+    background: url("http://www.letu.ru/common/img/points-top-bg-short.png") no-repeat center 14px;
+    top: -30px;
+}
+
+.price-range-container > span.bottom-position {
+    background: url("http://www.letu.ru/common/img/points-bottom-bg.png") no-repeat center top;
+    top: 34px;
+    padding-top: 32px;
+}
+
+.price-range-container > span.bottom-position-short {
+    background: url("http://www.letu.ru/common/img/points-bottom-bg-short.png") no-repeat center 14px;
+    top: 15px;
+    padding-top: 32px;
+}
+.price-range-container span.price-300 {
+    left: 12px;
+}
+.price-range-container span.price-2000 {
+    left: 88px;
+}
+.price-range-container span.price-4000 {
+    left: 162px;
+}
+.price-range-container span.price-6000 {
+    left: 237px;
+}
+.price-range-container span.price-8000 {
+    left: 310px;
+}
+.price-range-container span.price-10000 {
+    left: 386px;
+}
+.price-range-container span.price-12000 {
+    left: 458px;
+}
+.price-range-container span.price-15000 {
+    left: 535px;
+}
+.price-range-container .current-price {
+    font-size: 20px;
+    padding: 10px;
+    width: 70px;
+    border: 1px solid #ccc;
+    position: absolute;
+    top: -10px;
+    right: 15px;
+    text-align: center;
+}
+
+.product-price-column {
+    width: 75%;
+}
+
+/* Custom styles for input type="range" */
+
+input[type=range] {
+    /*removes default webkit styles*/
+    -webkit-appearance: none;
+
+    /*fix for FF unable to apply focus style bug */
+    border: 1px solid white;
+
+    /*required for proper track sizing in FF*/
+    width: 550px;
+}
+input[type=range]::-webkit-slider-runnable-track {
+    width: 550px;
+    height: 8px;
+    background: url("http://www.letu.ru/common/img/sliderRange.gif") repeat-x left top;
+    border: none;
+    border-radius: 3px;
+}
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background: url("http://www.letu.ru/common/img/sliderButton-32.png") no-repeat left top;
+    background-size: cover;
+    margin-top: -12px;
+}
+input[type=range]:focus {
+    outline: none;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: url("http://www.letu.ru/common/img/sliderRange.gif") repeat-x left top;
+}
+
+input[type=range]::-moz-range-track {
+    width: 500px;
+    height: 8px;
+    background: url("http://www.letu.ru/common/img/sliderRange.gif") repeat-x left top;
+    border: none;
+    border-radius: 3px;
+}
+input[type=range]::-moz-range-thumb {
+    border: none;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background: url("http://www.letu.ru/common/img/sliderButton-32.png") no-repeat left top;
+    background-size: cover;
+}
+
+/*hide the outline behind the border*/
+input[type=range]:-moz-focusring{
+    outline: 1px solid white;
+    outline-offset: -1px;
+}
+
+input[type=range]::-ms-track {
+    width: 500px;
+    height: 8px;
+
+    /*remove bg colour from the track, we'll use ms-fill-lower and ms-fill-upper instead */
+    background: transparent;
+
+    /*leave room for the larger thumb to overflow with a transparent border */
+    border-color: transparent;
+    border-width: 6px 0;
+
+    /*remove default tick marks*/
+    color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+    background: url("http://www.letu.ru/common/img/sliderRange.gif") repeat-x left top;
+    border-radius: 10px;
+}
+input[type=range]::-ms-fill-upper {
+    background: url("http://www.letu.ru/common/img/sliderRange.gif") repeat-x left top;
+    border-radius: 10px;
+}
+input[type=range]::-ms-thumb {
+    border: none;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background: url("http://www.letu.ru/common/img/sliderButton-32.png") no-repeat left top;
+    background-size: cover;
+}
+input[type=range]:focus::-ms-fill-lower {
+    background: url("http://www.letu.ru/common/img/sliderRange.gif") repeat-x left top;
+}
+input[type=range]:focus::-ms-fill-upper {
+    background: #ccc;
+}
+
+
+/* Sertificate variant-2 styles */
+
+.sertificate-image-container {
+    position: relative;
+    width: 500px;
+    margin: 0 auto 20px auto;
+    height: 500px;
+    background-color: #cccccc;
+}
+.sertificate-image-container form {
+    position: absolute;
+    left: 100px;
+    top: 295px;
+    font-family: arial;
+    font-size: 13px;
+}
+
+.sertificate-image-container .sertificate-number {
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+    position: absolute;
+    top: 10px;
+    width: 500px;
+}
+
+.sertificate-image-container .sertificate-number span {
+    font-size: 24px;
+    text-transform: uppercase;
+    line-height: 36px;
+}
+
+.sertificate-image-container .field-group {
+    margin: 3px 0;
+}
+.sertificate-image-container .field-group input#authorName {
+    float: right;
+    margin-top: 3px;
+}
+.sertificate-image-container .field-group input {
+    width: 40%;
+}
+
+.sertificate-image-container .field-group.last-field {
+    margin-top: -5px;
+}
+
+.sertificate-image-container .price-on-image {
+    position: absolute;
+    top: 225px;
+    font-size: 50px;
+    color: #000000;
+    width: 500px;
+    text-align: center;
+}
+.sertificate-image-container .price-on-image span {
+    font-size: 25px;
+}
+
+/* styles for carousel */
+
+.gallery.cerificates-gallery {
+    border: none;
+    margin-top: 0;
+}
+
+.gallery.cerificates-gallery .jCarouselLite ul li div,
+.gallery.cerificates-gallery .jCarouselLite ul li div img {
+    width: 121px !important;
+    heigth: 121px !important;
+}
+
+/* redesign styles */
+
+.checkoutContainer h3,
+.atg_store_productAllDescription h3  {
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+.product-range-description {
+    margin: 30px 0 30px 70px;
+}
+
+.product-range-description p,
+.atg_store_productAllDescription p {
+    font-size: 14px;
+}
+
+.image-container {
+    max-width: 550px;
+    margin: 20px auto;
+    position: relative;    
+}
+
+.image-container .price-on-image {
+    position: absolute;
+    bottom: 20px;
+    left: 292px;
+    font-size: 45px;
+    color: #000000;
+}
+
+.image-container .price-on-image span {
+    font-size: 20px;
+}
+
+.image-container .form-container {
+    position: absolute;
+    top: 100px;
+    right:55px;
+    height: 200px;
+    width: 200px;
+}
+
+.image-container .form-container .field-group input {
+    width: 200px;
+}
+
+.image-container .form-container .sertificate-content {
+    margin-top: 0px
+}
+
+.image-container .form-container .copyForCertificate {
+    width: 200px;
+    height: 103px;
+}
+
+/* styles for right block */
+.atg_store_productAllDescription .button-wrapper {
+    text-align: center;
+    padding: 10px 0;
+}
+.atg_store_productAllDescription .button-wrapper a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+    max-width: 120px;
+}
+
+.atg_store_productSummaryContainer h3 {
+    margin: 15px 0;
+    font-size: 18px;
+}
+.atg_store_productSummaryContainer .details-popup-link {
+    text-align: right;
+    display: block;
+}
+.about-ecards-dialog .popup-content {
+    padding: 30px 40px;
+}
+.about-ecards-dialog .popup-content p {
+    margin: 10px 0;
+}
+
+#addGiftCertForm{
+    margin-top: -30px;
+}
+#addGiftCertForm .checkout_container_table .right{
+    margin-top: 20px;
+}
+
+#priceRange{
+    width: 520px;
+    top: -23px;
+    margin-left: 6px;
+    background: url("http://www.letu.ru/common/img/sliderRange.gif") repeat-x left bottom #0077b3;
+    z-index: 1000;
+}
+.price-range-container .ui-slider{
+    border: 5px solid #d8e3ee;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 1px rgba(227, 232, 237, 1);
+}
+.price-range-container .ui-slider .ui-slider-handle{
+    border: 0;
+    position: absolute;
+    top: -11px;
+    z-index: 2;
+    width: 32px;
+    height: 32px;
+    cursor: default;
+    background: url("http://www.letu.ru/common/img/sliderButton-32.png") no-repeat left top;
+}
+.price-range-container .ui-slider .ui-slider-handle:focus{
+    outline: none;
+}
+
+
+/* styles for right block */
+.rightContent .button-wrapper {
+    text-align: center;
+    padding: 10px 0;
+}
+.rightContent .button-wrapper a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+    max-width: 120px;
+}
+
+.cartContainerCert #discountCardDetails img{
+    width: 100px;
+}
+
+.parentCardCert #discountCardDetails img{
+    width: 100px;
+}

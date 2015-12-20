@@ -1,0 +1,21 @@
+.brandCHANEL {
+	padding-bottom: 25px;
+}
+
+.atg_store_main .brandCHANEL {
+	padding-bottom: 5px;
+}
+
+
+ .brandCHANEL_a_start {
+	color: #000;
+	margin-left: 0px;
+	position: relative;
+}
+
+ .brandCHANEL_a {
+	color: #000;
+	margin-left: 10px;
+	position: relative;
+	top: -6px;
+}

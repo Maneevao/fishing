@@ -1,0 +1,154 @@
+
+.deliveryChoise label.individual,
+.deliveryChoise label.legal {
+  background: url(http://www.letu.ru/common/img/delivery/radioBtnBGself.png) 0 100% repeat-x #79bd11;
+  padding-left: 26px;
+  width: 256px;
+  position: relative;
+  margin-right: 0;
+}   
+
+.deliveryChoise label.individual li,
+.deliveryChoise label.legal li {
+  line-height: 15px;
+}
+
+.deliveryChoise label.legal {
+  margin-left: 19px;
+}
+.deliveryChoise label.individual .title,
+.deliveryChoise label.legal .title {
+  color: #666;
+  text-shadow: none;
+  font-size: 17px;
+  margin-top:5px;
+} 
+
+.deliveryChoise label.individual a.infoLink,
+.deliveryChoise label.legal a.infoLink { 
+  padding-left: 18px;
+  display: inline-block;
+  height: 16px;
+  line-height: 16px;
+  background:url(http://www.letu.ru/common/img/delivery/infoIconBlue.png) 0 1px no-repeat;
+  right: 15px;
+  bottom: 8px;
+  position: absolute;
+} 
+.checkoutContainer .footer .btnClassic.btnClassicLeft {
+  float: left;
+  } 
+  .checkoutContainer .formLine label{
+    width: 237px;
+  }
+  .checkoutContainer .formLine .phone-tip{
+    float: left;
+    line-height: 22px;
+    margin-right: 5px;
+    margin-left: -12px;
+  }
+  .checkoutContainer .formLine .hint {
+    margin: 0 0 0 247px;
+  }
+  .checkoutContainer .charter, .checkoutContainer .warrant {
+    overflow: hidden;
+  }
+  .checkoutContainer .warrant {
+    margin: 10px 0 10px 247px;
+  }
+  #charterRadio, #warrantRadio {
+    width: 30px;
+  }
+  .checkout_container_table .rightContent .checkout_summary_items p.short_description.giftcard:last-child {
+    margin-bottom: -10px;
+  }
+  .checkout_container_table .rightContent .checkout_summary_items p.short_description.giftcard span {
+    display: inline-block;
+    line-height: 13px;
+  }
+  .checkout_container_table .rightContent .checkout_summary_items p.short_description.giftcard span:first-child {
+    width: 100px;
+  }
+  
+  #gift_submit {
+    float: right;
+    margin-right: 28px;
+    margin-top: 16px;
+    width: 190px;
+  }
+
+  #giftCertAdditional {
+    margin-top: 15px;
+  }
+
+  .giftcard_action {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    margin: 5px 0 0!important;
+    background: url("http://www.letu.ru/common/img/ico-removie-re-des-sprite.png") -14px no-repeat!important;
+    border: none;
+    position: relative;
+    top: 2px;
+    left: 10px;
+    cursor: pointer;
+  }
+  .paymment_additional_form {
+    margin: 20px 0 20px 30px;
+  }
+  label[for=additional_payment_radio_gpb]{
+    margin-left: -5px;
+  }
+  label[for=gift_id], label[for=gift_pin]{
+    font-size: 13px!important;
+    margin-left: 49px;
+    width: 182px!important;
+    color: #444!important;
+  }
+
+  .checkoutContainer .errorMessage{
+    display: block;
+    clear: both;
+    margin-left: 247px;
+  }
+  .giftcard_item {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .giftcard_item .giftcard_status {
+    color: green;
+  }
+  #atg_store_checkoutBilling .checkout_container_footer {
+    margin-top: 10px;;
+  }
+  #quickViewContent p{
+    padding-bottom: 8px;
+  }
+  #staticMenu.collapsedBlock .title {
+    text-decoration: none;
+    color: #333;
+    cursor: default;
+    font-size: 17px;
+    font-family: 'PT Sans';
+  }
+  .cartContainerCert .cartContainer{
+    width: 688px;
+  }
+  .checkout_itemsInCartSummaryListing img {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+  }
+  #atg_store_cart td.total p {
+    display: inline-block
+  }
+  .delivery_table {
+    display: block;
+  }
+  .shipping_create_new_address .checkoutContainer  .formLine .hint {
+    margin: 0 0 0 197px;
+  }
+  .shipping_create_new_address .checkoutContainer .formLine label {
+    width: 192px;
+    margin-right: 5px;
+  }

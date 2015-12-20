@@ -1,0 +1,3 @@
+/*fix for jQuery gets the document size wrong in IE. To call it - $(document).trueHeight()*/
+
+(function(a){var b=function(a){return Math.max(document.documentElement["client"+a],document.documentElement["scroll"+a],document.body["scroll"+a])};a.fn.trueWidth=function(){return a.browser.msie&&this.get()[0].nodeType===9?b("Width"):this.width()};a.fn.trueHeight=function(){return a.browser.msie&&this.get()[0].nodeType===9?b("Height"):this.height()}})(jQuery)
